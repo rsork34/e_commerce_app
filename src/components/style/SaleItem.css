@@ -1,0 +1,8 @@
+.SaleItem {
+  border: thin solid black;
+  border-radius: 25px;
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
