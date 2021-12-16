@@ -30,9 +30,15 @@ function Home(props) {
         <>
             <h1>Welcome to the e commerce app</h1>
 
+            <div className="itemContainer">
             {items.map((item) => (
-                <SaleItem name={item.name} desc={item.description} price={item.price} />
+                    <SaleItem
+                        name={item.name}
+                        desc={item.description}
+                        price={item.price}
+                    />
             ))}
+            </div>
         </>
     );
 }
