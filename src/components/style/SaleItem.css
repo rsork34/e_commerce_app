@@ -1,8 +1,24 @@
-.SaleItem {
+.saleItem {
   border: thin solid black;
-  border-radius: 25px;
-  width: 25%;
+  border-radius: 10px;
+  width: 30%;
   text-align: center;
+  margin: 20px 10px;
+}
+
+.saleItemHeader {
+  border-bottom: thin solid black;
+  padding: 5px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.itemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  border: thin solid rgb(0, 195, 255);
+  border-radius: 25px;
+  width: 85%;
   margin: 0 auto;
-  margin-bottom: 5px;
+  justify-content: center;
 }

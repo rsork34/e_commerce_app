@@ -3,8 +3,10 @@ import "./style/SaleItem.css";
 
 function SaleItem(props) {
     return (
-        <div class="SaleItem">
-            <p>ITEM {props.name}</p>
+        <div className="saleItem">
+            <div className="saleItemHeader">
+                <p>ITEM {props.name}</p>
+            </div>
             <p>Description: {props.desc}</p>
             <p>Price: ${props.price}</p>
         </div>
