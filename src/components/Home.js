@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SaleItem from "./SaleItem";
+import Header from "./Header";
 
 function Home(props) {
     const defaultItems = [
@@ -28,6 +29,7 @@ function Home(props) {
 
     return (
         <>
+            <Header />
             <h1>Welcome to the e commerce app</h1>
 
             <div className="itemContainer">
