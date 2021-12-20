@@ -1,0 +1,18 @@
+#mainHeader {
+  background-color: lightblue;
+  border: thin solid white;
+  margin-bottom: 10px;
+  border-bottom: thin solid wheat;
+  display: flex;
+  justify-content: space-between;
+}
+
+#shoppingCartContainer {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+#titleContainer {
+  margin-left: 25px;
+}
