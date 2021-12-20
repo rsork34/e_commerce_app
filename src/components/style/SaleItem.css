@@ -26,6 +26,11 @@
 .saleItemBody {
     display: flex;
     text-align: left;
+    max-height: 25em;
+}
+
+.saleItemBody > div {
+  width: 50%;
 }
 
 .saleItemBodyDesc {
