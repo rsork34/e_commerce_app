@@ -1,24 +1,48 @@
 .saleItem {
-  border: thin solid black;
-  border-radius: 10px;
-  width: 30%;
-  text-align: center;
-  margin: 20px 10px;
+    border: thin solid black;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 20px 10px;
 }
 
 .saleItemHeader {
-  border-bottom: thin solid black;
-  padding: 5px;
-  background-color: lightgray;
-  border-radius: 10px;
+    border-bottom: thin solid black;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 
 .itemContainer {
-  display: flex;
-  flex-wrap: wrap;
-  border: thin solid rgb(0, 195, 255);
-  border-radius: 25px;
-  width: 85%;
-  margin: 0 auto;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: thin solid rgb(0, 195, 255);
+    border-radius: 25px;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.saleItemBody {
+    display: flex;
+    text-align: left;
+    max-height: 25em;
+}
+
+.saleItemBody > div {
+  width: 50%;
+}
+
+.saleItemBodyDesc {
+    padding: 15px;
+}
+
+.saleItemBodyImgDiv {
+    padding: 5px;
+    display: flex;
+}
+
+.saleItemBodyImg {
+    max-height: 100%;
+    max-width: 100%;
 }
