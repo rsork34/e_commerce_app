@@ -9,7 +9,7 @@ function importAll(r) {
     return images;
 }
 const images = importAll(
-    require.context("../images", false, /\.(png|jpe?g|svg)$/)
+    require.context("../images/items", false, /\.(png|jpe?g|svg)$/)
 );
 
 function SaleItem(props) {

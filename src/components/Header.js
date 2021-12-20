@@ -1,6 +1,6 @@
 import React from "react";
 import "./style/Header.css";
-import shoppingCart from "../images/shopping-cart.png";
+import shoppingCart from "../images/header/shopping-cart.png";
 
 function Header() {
     return (
