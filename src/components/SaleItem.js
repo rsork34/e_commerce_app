@@ -1,6 +1,16 @@
 import React from "react";
 import "./style/SaleItem.css";
-import DefaultImage from "../images/default-img.jpg";
+
+function importAll(r) {
+    let images = {};
+    r.keys().forEach((item, index) => {
+        images[item.replace("./", "")] = r(item);
+    });
+    return images;
+}
+const images = importAll(
+    require.context("../images", false, /\.(png|jpe?g|svg)$/)
+);
 
 function SaleItem(props) {
     return (
@@ -20,8 +30,8 @@ function SaleItem(props) {
                 <div className="saleItemBodyImgDiv">
                     <img
                         className="saleItemBodyImg"
-                        src={DefaultImage}
-                        alt="Default Item Image"
+                        src={images[`${props.imgPath}`]}
+                        alt="Default Item"
                     />
                 </div>
             </div>
