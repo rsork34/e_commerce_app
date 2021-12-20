@@ -9,9 +9,21 @@ function SaleItem(props) {
                 <p>ITEM {props.name}</p>
             </div>
             <div className="saleItemBody">
-                <p>Description: {props.desc}</p>
-                <p>Price: ${props.price}</p>
-                <img id="shoppingCart" src={DefaultImage} alt="Default Item Image"/>
+                <div className="saleItemBodyDesc">
+                    <p>
+                        <strong>Description:</strong> {props.desc}
+                    </p>
+                    <p>
+                        <strong>Price:</strong> ${props.price}
+                    </p>
+                </div>
+                <div className="saleItemBodyImgDiv">
+                    <img
+                        className="saleItemBodyImg"
+                        src={DefaultImage}
+                        alt="Default Item Image"
+                    />
+                </div>
             </div>
         </div>
     );
