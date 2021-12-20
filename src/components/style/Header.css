@@ -8,10 +8,9 @@
 }
 
 #shoppingCartContainer {
-  font-size: large;
   display: flex;
   margin-top: 15px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 #titleContainer {
